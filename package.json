@@ -4,14 +4,15 @@
   "description": "[![Actions Status](https://github.com/amalumian/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/amalumian/js-starter-project-44/actions)",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "amalumian",
+  "author": "Arthur Malumian",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
