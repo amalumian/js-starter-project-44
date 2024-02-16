@@ -37,11 +37,9 @@ Congratulations, Roman!
 
 ```bash
 git clone https://github.com/amalumian/js-starter-project-44.git
+cd js-starter-project-44
 make install
 sudo npm link
-
-# Or instead of npm link, run games from the bin directory, for example
-node bin/brain-calc.js
 ```
 
 ## How to play
