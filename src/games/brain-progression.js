@@ -23,7 +23,7 @@ export default () => {
     const hiddenNumIndex = getRandomNum(1, progressionSize - 2);
 
     const correctAnswer = progression[hiddenNumIndex];
-    progression[hiddenNumIndex] = '...';
+    progression[hiddenNumIndex] = '..';
     const question = progression.join(' ');
 
     gameData.push([question, correctAnswer.toString()]);
