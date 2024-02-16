@@ -1,9 +1,7 @@
-### Hexlet tests and linter status:
+# Brain Games
 
 [![Actions Status](https://github.com/amalumian/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/amalumian/js-starter-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/30928f631ef8e8221951/maintainability)](https://codeclimate.com/github/amalumian/js-starter-project-44/maintainability)
-
-# Brain Games
 
 "Brain Games" - a set of five console games, built on the principle of popular mobile applications for brain pumping. Each game asks questions to which you have to give correct answers. After three correct answers, the game is considered to be completed. Incorrect answers end the game and prompt you to go through it again.
 
@@ -15,9 +13,9 @@ Games:
 - Determining the greatest common divisor.
 - Determining a prime number.
 
-Game example:
+Example:
 
-```bash
+```
 brain-progression
 Welcome to the Brain Game!
 What number is missing in the progression?
@@ -35,62 +33,55 @@ Correct!
 Congratulations, Roman!
 ```
 
-## Brain Even
+## Setup
 
-**To start, type:**
+```bash
+git clone https://github.com/amalumian/js-starter-project-44.git
+make install
+sudo npm link
+
+# Or instead of npm link, run games from the bin directory, for example
+node bin/brain-calc.js
+```
+
+## How to play
+
+### Determining an even number
 
 ```bash
 brain-even
 ```
 
-### Demo
-
 [![asciicast](https://asciinema.org/a/rBtk9DjSlIZ6KUkmAVJOGl8ms.svg)](https://asciinema.org/a/rBtk9DjSlIZ6KUkmAVJOGl8ms)
 
-## Brain Calc
-
-**To start, type:**
+### Calculator
 
 ```bash
 brain-calc
 ```
 
-### Demo
-
 [![asciicast](https://asciinema.org/a/0qLmjW2qMwdXis0aJ42BBCj4C.svg)](https://asciinema.org/a/0qLmjW2qMwdXis0aJ42BBCj4C)
 
-## Brain GCD
-
-**To start, type:**
+### Determining the greatest common divisor
 
 ```bash
 brain-gcd
 ```
 
-### Demo
-
 [![asciicast](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit.svg)](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit)
 
-## Brain Progression
-
-**To start, type:**
+### Progression
 
 ```bash
 brain-progression
 ```
 
-### Demo
-
 [![asciicast](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl.svg)](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl)
 
-## Brain Prime
-
-**To start, type:**
+### Determining a prime number
 
 ```bash
 brain-prime
 ```
-
-### Demo
 
 [![asciicast](https://asciinema.org/a/yM4eHLTdqUKiKD6qHQct9nGGb.svg)](https://asciinema.org/a/yM4eHLTdqUKiKD6qHQct9nGGb)
