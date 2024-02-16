@@ -1,15 +1,15 @@
 import gameEngine, { roundsCount } from '../index.js';
 import getRandomNum from '../get-random-num.js';
 
-const calculate = (operand1, operator, operand2) => {
+const calculate = (a, operator, b) => {
   if (operator === '+') {
-    return operand1 + operand2;
+    return a + b;
   }
   if (operator === '-') {
-    return operand1 - operand2;
+    return a - b;
   }
   if (operator === '*') {
-    return operand1 * operand2;
+    return a * b;
   }
 
   return null;
@@ -21,12 +21,12 @@ export default () => {
   const operators = ['+', '-', '*'];
 
   for (let round = 0; round < roundsCount; round += 1) {
-    const operand1 = getRandomNum(0, 10);
-    const operand2 = getRandomNum(0, 10);
+    const a = getRandomNum(0, 10);
+    const b = getRandomNum(0, 10);
     const operator = operators[getRandomNum(0, operators.length - 1)];
 
-    const question = `${operand1} ${operator} ${operand2}`;
-    const correntAnswer = calculate(operand1, operator, operand2);
+    const question = `${a} ${operator} ${b}`;
+    const correntAnswer = calculate(a, operator, b);
 
     gameData.push([question, correntAnswer.toString()]);
   }
