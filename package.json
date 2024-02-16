@@ -1,5 +1,5 @@
 {
-  "name": "brain-games",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Set of five console games, built on the principle of popular mobile applications for brain pumping.",
   "bin": {
