@@ -17,7 +17,7 @@ Games:
 
 Game example:
 
-```
+```bash
 brain-progression
 Welcome to the Brain Game!
 What number is missing in the progression?
@@ -82,3 +82,15 @@ brain-progression
 ### Demo
 
 [![asciicast](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl.svg)](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl)
+
+## Brain Prime
+
+**To start, type:**
+
+```bash
+brain-prime
+```
+
+### Demo
+
+[![asciicast](https://asciinema.org/a/yM4eHLTdqUKiKD6qHQct9nGGb.svg)](https://asciinema.org/a/yM4eHLTdqUKiKD6qHQct9nGGb)
