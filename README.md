@@ -37,7 +37,7 @@ Congratulations, Roman!
 
 ## Brain Even
 
-To start, type:
+**To start, type:**
 
 ```bash
 brain-even
@@ -49,7 +49,7 @@ brain-even
 
 ## Brain Calc
 
-To start, type:
+**To start, type:**
 
 ```bash
 brain-calc
@@ -58,3 +58,15 @@ brain-calc
 ### Demo
 
 [![asciicast](https://asciinema.org/a/0qLmjW2qMwdXis0aJ42BBCj4C.svg)](https://asciinema.org/a/0qLmjW2qMwdXis0aJ42BBCj4C)
+
+## Brain GCD
+
+**To start, type:**
+
+```bash
+brain-gcd
+```
+
+### Demo
+
+[![asciicast](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit.svg)](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit)
