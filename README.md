@@ -70,3 +70,15 @@ brain-gcd
 ### Demo
 
 [![asciicast](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit.svg)](https://asciinema.org/a/ReZ4Pe53fnoydIZea2koDXUit)
+
+## Brain Progression
+
+**To start, type:**
+
+```bash
+brain-progression
+```
+
+### Demo
+
+[![asciicast](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl.svg)](https://asciinema.org/a/efTxtJ6TCPlXKkT8M6zyHtshl)
